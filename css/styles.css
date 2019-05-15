@@ -89,6 +89,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 	border:0;
 	margin-right:5px;
 	float:left;
+	left: 68px;
 }
 .nivo-controlNav a.active {
 	background-position:0 -22px;
