@@ -1,0 +1,148 @@
+
+<!-- saved from url=(0042)file:///C:/Users/15428/Documents/HTML.html -->
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+</head>
+
+<body bgcolor="black" text="#3399ff" style="font-family: Poiret One; font-size:150%">
+Kristina
+
+
+<style>
+		
+	h1 {
+text-shadow: 2px 2px 9px #FFF000;
+}
+
+</style>
+
+	
+
+
+	
+
+<marquee>
+	
+	<h1>Text-shadow with red neon glow
+
+	</h1>
+
+</marquee>
+
+	
+
+	<h2>
+
+		<b>
+Basic
+</b>
+
+	</h2>
+
+
+
+	<h3>
+
+		<u>
+Web
+</u>
+	
+	</h3>
+
+	
+
+	<h4>
+	
+		<i>
+Design
+</i>
+
+	</h4>
+
+	
+
+		<p> 
+This is paragraph one. As you can see, the paragraph tag automatically take a new line for the next paragraph.
+</p>
+
+
+
+		This is paragraph one. <br>
+
+As you can see, the paragraph tag automatically <br>
+
+take a new line for the next paragraph PAGE 62<br>
+
+
+
+<table border="10" width="50%" bgcolor="RED" cellspacing="10" cellpadding="10" style="FONT-SIZE:150%">
+ 
+
+<tbody>
+	<tr bgcolor="blue">
+
+		<th>Name</th>
+
+		<th>Age</th>
+		
+<th>Gender</th>
+
+	</tr>
+ 
+		
+
+	<tr bgcolor="#ff3399">
+
+		<td> <h1>Toby<br>
+			  the<br>
+			  Lecturer
+		     </h1>
+		</td>
+
+		<td>Old</td>
+
+
+		<td valign="top">Male</td>
+
+	</tr>
+
+
+
+	<tr bgcolor="#cc00ff">
+
+		<td>Kate</td>
+
+		<td>23</td>
+
+		<td>Female</td>
+
+	</tr>
+
+
+
+	<tr bgcolor="#00ccff">
+
+
+		<td>Phil</td>
+
+		<td>28</td>
+
+		<td>Male</td>
+
+	</tr>
+
+
+</tbody>
+
+</table>
+
+
+
+
+
+</body>
+</html>

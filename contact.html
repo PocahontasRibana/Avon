@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+</head>
+
+<body>
+
+
+<form action="Index.html" method="get" name="contact" target="_self">
+<table width="1200" style="background: white;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px; font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-style:oblique; color:white" border="0" cellspacing="40" cellpadding="0">
+  <tr>
+    <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;" colspan="4"> *Required fields</td>
+  </tr>
+  <tr>
+    <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;" width="300"><label for="firstname">First Name*:</label></td>
+    <td colspan="3" style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><input name="firstname" type="text" id="firstname" size="45" maxlength="20" /></td>
+  </tr>
+  <tr>
+     <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;" width="300"><label for="lastname">Last Name*:</label></td>
+    <td colspan="3" style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><input name="lastname" type="text" id="lastname" size="45" maxlength="20"/></td>
+  </tr>
+ 
+  <tr>
+    <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><label for="email">E-mail address*:</label></td>
+    <td colspan="3" style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><input name="email" type="text" id="email" size="45" maxlength="20"/></td>
+  </tr>
+  
+  <tr>
+  
+  <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+  Where did you find out about Avon products:
+  </td>
+  
+  <td colspan="3" style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><p>
+    <label>
+      <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0" />
+      TV</label>
+    <br />
+    <label>
+      <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1" />
+      Internet</label>
+    <br />
+    <label>
+      <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2" />
+      Friend</label>
+    <br />
+      <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2" />
+      </label>
+    <br />
+  </p>
+  </td>
+  </tr>
+  
+  <tr>
+  	 <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+     Your gender:
+     </td>
+  	 <td colspan="3" style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><p>
+       <label>
+         <input type="radio" name="Gender" value="radio" id="Gender_0" />
+         Male</label>
+       <br />
+       <label>
+         <input type="radio" name="Gender" value="radio" id="Gender_1" />
+         Female</label>
+       <br />
+       
+     </p>
+	 </td>
+  </tr>
+  
+  <tr>
+    <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><label for="topic">Choose a topic:</label></td>
+    <td colspan="3" style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><select name="topic" id="topic">
+      
+      <option>Choose a topic*</option>
+      <option>I need an Avon Representative</option>
+      <option>I want to become a Representative</option>
+      <option>I want to order products</option>
+      <option>Where is my order?</option>
+      <option>I need to return a product</option>
+      <option>I have a questions about a product</option>
+      <option>Other</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><label for="quest">Your question*:</label></td>
+    <td colspan="3" style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;"><textarea name="Quest" cols="48" rows="5"></textarea></td>
+    <td style="background: #d30b81;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+    <input name="Reset" type="reset" value="Reset" /><br />
+    </td>
+  </tr>
+  
+  <tr>
+  <td colspan="3">
+  <input button class="button button2" name="Send to Avon" type="submit" value="Submit" /><br />
+  </td>
+  </tr>
+ 
+</table>
+</form>
+</body>
+</html>

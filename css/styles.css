@@ -1,0 +1,121 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+#wrap{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#wrap_bg{
+	width: 1000px;
+	margin: 0 auto;
+	background: url(images/logo_bg.png) no-repeat left top;
+}
+
+/*prew_box*/
+
+#prew_box{
+	background: url(images/prew_bg.png) no-repeat top left;
+	height: 480px;
+	width: 1000px;
+	padding: 0px;
+}
+
+#prew_but_box{
+	width: 76px;
+	margin: 0 auto;
+	height: 20px;
+	padding-top: 0px;
+}
+
+#prew_but_left{
+	float: left;
+}
+
+#prew_but_right{
+	float: right;
+}
+
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(images/top.jpg) no-repeat;
+    width:1000px;
+    height: 480px;
+    margin:0 auto;
+}
+
+#slider {
+	position:relative;
+    width: 1000px;
+    height: 480px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left: 380px;
+	bottom:22px;
+
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:20px;
+	background:url(../images/slide/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:5px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/slide/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
